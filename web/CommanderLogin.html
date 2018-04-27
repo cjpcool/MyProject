@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Commander Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="User Icon Login Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/style1.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="container">
+<h1>我是管理员</h1>
+     <div class="contact-form">
+	 <div class="profile-pic">
+	 <img src="img/gly.jpg" alt="User Icon"/>
+	 </div>	 
+	 <div class="signin">
+     <form action="adminController?op=login" method="post">
+	      <input type="text" class="user" name="mgrId"   onblur="if (this.value == '') {this.value = 'ID';}" />
+		  <input type="password" class="pass" name="mgrPwd" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" />
+		  <br>普通管理员<input checked type="radio" name="identify" value="0">
+		  超级管理员<input type="radio" name="identify" value="1">
+		 </div>
+		      <input type="submit" value="Go" />
+		 </div>
+	  </form>
+	  <form action="index.jsp" method="post">
+	  		<div style="width:500px; margin:0 auto;">
+		     	 <input type="submit" value="Index" style="width:500px;"/>
+		      </div>
+	  </form>
+</div>
+<div class="footer">
+     <p>管理员登录<a href="http://www.moke8.com/" target="_blank">该页面参考自moke8</a></p>
+</div>
+</body>
+</html>
