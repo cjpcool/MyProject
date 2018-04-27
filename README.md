@@ -27,4 +27,11 @@ This is Description
         
         
 数据库:
-
+    
+    默认超级管理员
+    
+        id:1111
+        name:admin
+        password:admin123456
+        
+    默认单词:计算机专业: 1756个
